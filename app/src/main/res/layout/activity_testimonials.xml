@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eee"
+    tools:context=".TestimonialsActivity">
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="35dp"
+        app:cardUseCompatPadding="false"
+        app:cardCornerRadius="5dp"
+        android:id="@+id/cvTestimonial">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:textSize="16sp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="20dp"
+                android:text="  My dental hygienist is cute. Every time I visit, I eat a whole package of Oreo cookies while waiting in the lobby. Sometimes she has to cancel the rest of the afternoon's appointments."
+                android:elevation="15dp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/tvTestimonial"/>
+
+
+            <TextView
+                android:id="@+id/tvTestimonialSaying"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" - Steven Wright"
+                android:textSize="16sp"
+                android:layout_gravity="right"
+                android:layout_below="@+id/tvTestimonial"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="20dp"/>
+
+        </RelativeLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="35dp"
+        app:cardUseCompatPadding="false"
+        app:cardCornerRadius="5dp"
+        android:layout_below="@+id/cvTestimonial">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:textSize="16sp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="20dp"
+                android:text = "Faced with the choice of enduring a bad toothache or going to the dentist, we generally tried to ride out the bad tooth."
+                android:elevation="15dp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/tvTestimonial2"/>
+
+
+            <TextView
+                android:id="@+id/tvTestimonialSaying2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" - Joseph Barbera"
+                android:textSize="16sp"
+                android:layout_gravity="right"
+                android:layout_marginRight="20dp"
+                android:layout_below="@+id/tvTestimonial2"
+                android:layout_alignParentRight="true"/>
+
+        </RelativeLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+
+
+
+
+</RelativeLayout>

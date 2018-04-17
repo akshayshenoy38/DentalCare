@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.akshay.dentalcare3.ServicesActivity">
+
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="900dp"
+            android:orientation="vertical">
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="5dp"
+                android:padding="20dp"
+                android:background="@drawable/linear_background">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="CHANGE YOUR SMILE AND RENEW YOUR SELF CONFIDENCE"
+                    android:textSize="18sp"
+                    android:textColor="#F44336"
+                    android:padding="5dp"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:textColor="#000"
+                    android:text=" Preserving the Teeth - high quality, tooth-like filling materials are used to protect the teeth. In addition, Inlays of different types of materials ensure durability and aesthetics."
+                    />
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                android:orientation="vertical"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="15dp"
+                android:padding="20dp"
+                android:background="@drawable/linear_background">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000"
+                    android:textSize="20sp"
+                    android:text="Following are our services"
+                    />
+
+
+                <GridLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center">
+
+
+                    <Button
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_column="0"
+                        android:layout_row="0"
+                        android:layout_gravity="fill"
+                        android:gravity="center"
+                        android:background="@drawable/buttonshape3"
+                        android:text="General Clean"
+                        android:textColor="#fff"
+                        android:layout_margin="5dp"
+                        android:padding="0dp"
+                        android:layout_rowWeight="1"
+                        android:layout_columnWeight="1"
+                        android:textSize="8sp"/>
+
+                    <Button
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_column="1"
+                        android:layout_row="0"
+                        android:layout_gravity="fill"
+                        android:gravity="center"
+                        android:background="@drawable/buttonshape3"
+                        android:text="Loose Filling"
+                        android:textColor="#fff"
+                        android:layout_margin="5dp"
+                        android:padding="0dp"
+                        android:layout_rowWeight="1"
+                        android:layout_columnWeight="1"
+                        android:textSize="8sp"/>
+
+                    <Button
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_column="2"
+                        android:layout_row="0"
+                        android:layout_gravity="fill"
+                        android:gravity="center"
+                        android:background="@drawable/buttonshape3"
+                        android:text="Crown"
+                        android:textColor="#fff"
+                        android:layout_margin="5dp"
+                        android:padding="0dp"
+                        android:layout_rowWeight="1"
+                        android:layout_columnWeight="1"
+                        android:textSize="8sp"/>
+
+                    <Button
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_column="0"
+                        android:layout_row="1"
+                        android:layout_gravity="fill"
+                        android:gravity="center"
+                        android:background="@drawable/buttonshape3"
+                        android:text="Straightening"
+                        android:textColor="#fff"
+                        android:layout_margin="5dp"
+                        android:padding="0dp"
+                        android:layout_rowWeight="1"
+                        android:layout_columnWeight="1"
+                        android:textSize="8sp"/>
+
+
+                    <Button
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_column="1"
+                        android:layout_row="1"
+                        android:layout_gravity="fill"
+                        android:gravity="center"
+                        android:background="@drawable/buttonshape3"
+                        android:text="Toothcare"
+                        android:textColor="#fff"
+                        android:layout_margin="5dp"
+                        android:padding="0dp"
+                        android:layout_rowWeight="1"
+                        android:layout_columnWeight="1"
+                        android:textSize="8sp"/>
+
+                    <Button
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_column="2"
+                        android:layout_row="1"
+                        android:layout_gravity="fill"
+                        android:gravity="center"
+                        android:background="@drawable/buttonshape3"
+                        android:text="Consultation"
+                        android:textColor="#fff"
+                        android:layout_margin="5dp"
+                        android:padding="0dp"
+                        android:layout_rowWeight="1"
+                        android:layout_columnWeight="1"
+                        android:textSize="8sp"/>
+
+                    <Button
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_column="0"
+                        android:layout_row="2"
+                        android:layout_gravity="fill"
+                        android:gravity="center"
+                        android:background="@drawable/buttonshape3"
+                        android:text="Root Canal"
+                        android:textColor="#fff"
+                        android:layout_margin="5dp"
+                        android:padding="0dp"
+                        android:layout_rowWeight="1"
+                        android:layout_columnWeight="1"
+                        android:textSize="8sp"/>
+
+                    <Button
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_column="1"
+                        android:layout_row="2"
+                        android:layout_gravity="fill"
+                        android:gravity="center"
+                        android:background="@drawable/buttonshape3"
+                        android:text="Bridge"
+                        android:textColor="#fff"
+                        android:layout_margin="5dp"
+                        android:padding="0dp"
+                        android:layout_rowWeight="1"
+                        android:layout_columnWeight="1"
+                        android:textSize="8sp"/>
+
+                    <Button
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_column="2"
+                        android:layout_row="2"
+                        android:layout_gravity="fill"
+                        android:gravity="center"
+                        android:background="@drawable/buttonshape3"
+                        android:text="Cosmetic"
+                        android:textColor="#fff"
+                        android:layout_margin="5dp"
+                        android:padding="0dp"
+                        android:layout_rowWeight="1"
+                        android:layout_columnWeight="1"
+                        android:textSize="8sp"/>
+
+
+                </GridLayout>
+
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+    </android.support.v4.widget.NestedScrollView>
+
+
+
+
+</LinearLayout>

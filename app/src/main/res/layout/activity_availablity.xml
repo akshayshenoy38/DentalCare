@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/rlAvailablity"
+    android:background="#fffff0"
+    tools:context="com.example.akshay.dentalcare3.AvailablityActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/dentalcarebg"
+        android:foregroundGravity="left"
+        android:id="@+id/imgAboutUsBackground"/>
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/nsvAvailablity"
+        android:background="#88ffffff">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:id="@+id/llAboutUs"
+            android:elevation="10dp">
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:id="@+id/imgAboutUsLogo"
+                android:src="@drawable/dentalcarelogotransparent"
+                android:layout_gravity="center"
+                />
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:elevation="15dp"
+                app:cardUseCompatPadding="false"
+                app:cardCornerRadius="10dp"
+                android:background="@android:color/white"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="20dp">
+
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tvWeAreAvailableOn"
+                    android:text="We are available on"
+                    android:textSize="15sp"
+                    android:layout_marginLeft="20dp"
+                    android:textColor="@android:color/holo_red_dark"/>
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Monday"
+                        android:id="@+id/tvMonday"
+                        android:textSize="15sp"
+                        android:layout_marginTop="15dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginLeft="10dp"
+                        android:textColor="@android:color/black"/>
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/tvMondayTime"
+                        android:text="09:00 AM - 07:00 PM"
+                        android:layout_marginTop="15dp"
+                        android:textSize="15sp"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="10dp"/>
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Tuesday"
+                        android:id="@+id/tvTuesday"
+                        android:textSize="15sp"
+                        android:layout_marginTop="5dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginLeft="10dp"
+                        android:layout_below="@+id/tvMonday"
+                        android:textColor="@android:color/black"/>
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/tvTuesdayTime"
+                        android:layout_below="@+id/tvMondayTime"
+                        android:text="09:00 AM - 07:00 PM"
+                        android:textSize="15sp"
+                        android:layout_marginTop="5dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="10dp"/>
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Wednesday"
+                        android:id="@+id/tvWednesday"
+                        android:textSize="15sp"
+                        android:layout_marginTop="5dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginLeft="10dp"
+                        android:layout_below="@+id/tvTuesday"
+                        android:textColor="@android:color/black"/>
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/tvWednesdayTime"
+                        android:layout_below="@+id/tvTuesdayTime"
+                        android:text="09:00 AM - 07:00 PM"
+                        android:textSize="15sp"
+                        android:layout_marginTop="5dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="10dp"/>
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Thursday"
+                        android:id="@+id/tvThursday"
+                        android:textSize="15sp"
+                        android:layout_marginTop="5dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginLeft="10dp"
+                        android:layout_below="@+id/tvWednesday"
+                        android:textColor="@android:color/black"/>
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/tvThursdayTime"
+                        android:layout_below="@+id/tvWednesdayTime"
+                        android:text="09:00 AM - 07:00 PM"
+                        android:layout_marginTop="5dp"
+                        android:layout_alignParentRight="true"
+                        android:textSize="15sp"
+                        android:layout_marginRight="10dp"/>
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Friday"
+                        android:id="@+id/tvFriday"
+                        android:textSize="15sp"
+                        android:layout_marginTop="5dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginLeft="10dp"
+                        android:layout_below="@+id/tvThursday"
+                        android:textColor="@android:color/black"/>
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/tvFridayTime"
+                        android:layout_below="@+id/tvThursdayTime"
+                        android:text="09:00 AM - 07:00 PM"
+                        android:textSize="15sp"
+                        android:layout_marginTop="5dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="10dp"/>
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Saturday"
+                        android:id="@+id/tvSaturday"
+                        android:textSize="15sp"
+                        android:layout_marginTop="5dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginLeft="10dp"
+                        android:layout_below="@+id/tvFriday"
+                        android:textColor="@android:color/black"/>
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/tvSaturdayTime"
+                        android:layout_below="@+id/tvFridayTime"
+                        android:text="09:00 AM - 07:00 PM"
+                        android:layout_marginTop="5dp"
+                        android:textSize="15sp"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="10dp"/>
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Sunday"
+                        android:id="@+id/tvSunday"
+                        android:textSize="15sp"
+                        android:layout_marginTop="5dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginLeft="10dp"
+                        android:layout_below="@+id/tvSaturday"
+                        android:textColor="@android:color/black"/>
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/tvSundayTime"
+                        android:layout_below="@+id/tvSaturdayTime"
+                        android:text="Holiday"
+                        android:textSize="15sp"
+                        android:layout_marginTop="5dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="10dp"/>
+
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/tvLunch"
+                        android:text="Lunch Time"
+                        android:textSize="15sp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_below="@+id/tvSunday"
+                        android:layout_marginTop="20dp"
+                        android:textColor="@android:color/holo_red_dark"/>
+
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/tvLunchTimings"
+                        android:layout_below="@+id/tvSundayTime"
+                        android:text="1:00 PM to 2:00 PM Everyday"
+                        android:layout_marginTop="20dp"
+                        android:textSize="15sp"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="10dp"/>
+
+
+
+                    <Button
+                        android:id="@+id/btnBookAppointment"
+
+                        android:text="Book an appointment"
+                        android:textColor="#FFFFFF"
+                        android:textSize="15sp"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:background="@drawable/buttonshape1"
+                        android:shadowColor="#A8A8A8"
+                        android:shadowDx="0"
+                        android:shadowDy="0"
+                        android:layout_below="@+id/tvLunch"
+                        android:shadowRadius="5"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="30dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginBottom="20dp"
+                        android:onClick="showBookAppointment"
+                        android:elevation="10dp"
+                        />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                </RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+            </android.support.v7.widget.CardView>
+
+
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="2dp"
+    android:layout_marginBottom="2dp"
+    app:cardCornerRadius="1dp"
+    app:cardUseCompatPadding="false">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:background="@android:color/white">
+
+
+        <ImageView
+            android:id="@+id/ivDocBlog"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/dp" />
+
+        <TextView
+            android:id="@+id/tvDocBlogTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="1dp"
+            android:layout_toEndOf="@+id/ivDocBlog"
+            android:text="Doc Blog Title"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvDocBlogDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvDocBlogTitle"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="4dp"
+            android:layout_toEndOf="@+id/ivDocBlog"
+            android:text="date"
+            android:textSize="15sp" />
+
+
+        <TextView
+            android:id="@+id/tvDocBlogContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvDocBlogDate"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="4dp"
+            android:layout_toEndOf="@+id/ivDocBlog"
+            android:lines="2"
+            android:text="Doc BlogContent "
+            android:textColor="@android:color/black"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tvDocBlogReadMore"
+            style="text-decoration: underline;"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvDocBlogContent"
+            android:layout_alignParentRight="true"
+            android:text="Read More"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="15sp" />
+
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

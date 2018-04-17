@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.akshay.dentalcare3.BookingAppointmentActivity">
+
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+
+
+
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#fffffe">
+
+
+            <devs.mulham.horizontalcalendar.HorizontalCalendarView
+                android:id="@+id/calendarView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                app:textColorSelected="#000000"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvAvailableTime"
+                android:text="Available Time"
+                android:textSize="18sp"
+                android:textColor="#000"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="20dp"/>
+
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp">
+
+
+                <Button
+                    android:layout_width="50dp"
+                    android:layout_height="45dp"
+                    android:layout_column="0"
+                    android:layout_row="0"
+                    android:layout_gravity="fill"
+                    android:gravity="center"
+                    android:background="@drawable/buttonshape2"
+                    android:text="10:00 AM"
+                    android:textColor="#000"
+                    android:layout_margin="10dp"
+                    android:padding="0dp"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:textSize="15sp"
+                    android:elevation="10dp"/>
+
+                <Button
+                    android:layout_width="50dp"
+                    android:layout_height="45dp"
+                    android:layout_column="1"
+                    android:layout_row="0"
+                    android:layout_gravity="fill"
+                    android:gravity="center"
+                    android:background="@drawable/buttonshape2"
+                    android:text="11:00 AM"
+                    android:textColor="#000"
+                    android:layout_margin="10dp"
+                    android:padding="0dp"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:textSize="15sp"
+                    android:elevation="10dp"/>
+
+                <Button
+                    android:layout_width="50dp"
+                    android:layout_height="45dp"
+                    android:layout_column="2"
+                    android:layout_row="0"
+                    android:layout_gravity="fill"
+                    android:gravity="center"
+                    android:background="@drawable/buttonshape2"
+                    android:text="12:00 Noon"
+                    android:textColor="#000"
+                    android:layout_margin="10dp"
+                    android:padding="0dp"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:textSize="15sp"
+                    android:elevation="10dp"/>
+
+                <Button
+                    android:layout_width="50dp"
+                    android:layout_height="45dp"
+                    android:layout_column="0"
+                    android:layout_row="1"
+                    android:layout_gravity="fill"
+                    android:gravity="center"
+                    android:background="@drawable/buttonshape2"
+                    android:text="1:30 PM"
+                    android:textColor="#000"
+                    android:layout_margin="10dp"
+                    android:padding="0dp"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:textSize="15sp"
+                    android:elevation="10dp"/>
+
+
+                <Button
+                    android:layout_width="50dp"
+                    android:layout_height="45dp"
+                    android:layout_column="1"
+                    android:layout_row="1"
+                    android:layout_gravity="fill"
+                    android:gravity="center"
+                    android:background="@drawable/buttonshape2"
+                    android:text="2:15 PM"
+                    android:textColor="#000"
+                    android:layout_margin="10dp"
+                    android:padding="0dp"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:textSize="15sp"
+                    android:elevation="10dp"/>
+
+                <Button
+                    android:layout_width="50dp"
+                    android:layout_height="45dp"
+                    android:layout_column="2"
+                    android:layout_row="1"
+                    android:layout_gravity="fill"
+                    android:gravity="center"
+                    android:background="@drawable/buttonshape2"
+                    android:text="3:00 PM"
+                    android:textColor="#000"
+                    android:layout_margin="10dp"
+                    android:padding="0dp"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:textSize="15sp"
+                    android:elevation="10dp"/>
+
+                <Button
+                    android:layout_width="50dp"
+                    android:layout_height="45dp"
+                    android:layout_column="0"
+                    android:layout_row="2"
+                    android:layout_gravity="fill"
+                    android:gravity="center"
+                    android:background="@drawable/buttonshape2"
+                    android:text="4:00 PM"
+                    android:textColor="#000"
+                    android:layout_margin="10dp"
+                    android:padding="0dp"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:textSize="15sp"
+                    android:elevation="10dp"/>
+
+                <Button
+                    android:layout_width="50dp"
+                    android:layout_height="45dp"
+                    android:layout_column="1"
+                    android:layout_row="2"
+                    android:layout_gravity="fill"
+                    android:gravity="center"
+                    android:background="@drawable/buttonshape2"
+                    android:text="5:00 PM"
+                    android:textColor="#000"
+                    android:layout_margin="10dp"
+                    android:padding="0dp"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:textSize="15sp"
+                    android:elevation="10dp"/>
+
+                <Button
+                    android:layout_width="50dp"
+                    android:layout_height="45dp"
+                    android:layout_column="2"
+                    android:layout_row="2"
+                    android:layout_gravity="fill"
+                    android:gravity="center"
+                    android:background="@drawable/buttonshape2"
+                    android:text="6:00 PM"
+                    android:textColor="#000"
+                    android:layout_margin="10dp"
+                    android:padding="0dp"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:textSize="15sp"
+                    android:elevation="10dp"/>
+
+
+            </GridLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvAppointmentFor"
+                android:text="Appointment for.."
+                android:textSize="18sp"
+                android:textColor="#000"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"/>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvFullName"
+                android:text="Full Name"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"/>
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/etFullName"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"
+                />
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvContactNumber"
+                android:text="Contact Number"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"/>
+
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/etContactNumber"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"
+                android:inputType="number"/>
+
+
+
+            <Button
+                android:id="@+id/btnSaveAndNextPage"
+
+                android:text="Next"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/buttonshape1"
+                android:shadowColor="#A8A8A8"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="5"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:elevation="10dp"
+                android:layout_marginBottom="15dp"/>
+
+
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+
+</LinearLayout>
+
+
+

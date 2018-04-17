@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "901899608963",
+    "firebase_url": "https://dentalcare3-d1148.firebaseio.com",
+    "project_id": "dentalcare3-d1148",
+    "storage_bucket": "dentalcare3-d1148.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:901899608963:android:afc679527dc699c4",
+        "android_client_info": {
+          "package_name": "com.example.akshay.dentalcare3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "901899608963-6qvsjdofiqvb64b1rf724khskg9tc8c4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.akshay.dentalcare3",
+            "certificate_hash": "db7c154e8ff7e332307aa1b5fd2c15cd37853106"
+          }
+        },
+        {
+          "client_id": "901899608963-70koge7lon5nff42g72hgvnd7ejt0uav.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFrG3q1x0ldHuQj-Vd4eRxKkAsNTG3VeM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "901899608963-70koge7lon5nff42g72hgvnd7ejt0uav.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
